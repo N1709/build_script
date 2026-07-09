@@ -7,6 +7,8 @@ echo "=================="
 echo "Repo init success"
 echo "=================="
 
+#Local Manifest
+git clone https://github.com/N1709/local_manifest.git .repo/local_manifests -b gsi
 echo "============================"
 echo "Local manifest clone success"
 echo "============================"
