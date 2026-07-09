@@ -39,7 +39,6 @@ echo "============="
 lunch gsi_arm64-userdebug
 
 # Build
-m installclean
 m systemimage -j$(nproc)
 
 # Copy hasil
