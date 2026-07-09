@@ -39,7 +39,7 @@ echo "============="
 lunch gsi_arm64-userdebug
 
 # Build
-m systemimage -j$(nproc)
+mka systemimage
 
 # Copy hasil
 mkdir -p imgs_output
